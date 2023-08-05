@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+    
+}
+
+.container {
+    justify-content: center;
+    margin:auto;
+    margin-top: 35px;
+    margin-bottom: 80px;
+}
+
+.carrossel {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.imghome {
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.textohome {
+    font-size: medium;
+}
+
+.tabelahome {
+    margin: auto;
+    border-color: cadetblue;
+    background-color: white;
+    font-size: 16px;
+    line-height: 1.5;
+   
+}
+    @media (max-width: 768px) {
+ 
+        .tabelahome {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+}
+
+
+p {
+    margin: 30px 50px 30px 50px;
+    color:cadetblue ;
+    text-align: center;
+
+
+}
+
+h1, h4, h5, h6 {
+    margin-top: 80px;
+    color:cadetblue ;
+    text-align: center;  
+
+    
+}
+
+table, tr, td {
+
+    background-color: white;
+    border: solid cadetblue;
+    
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.textohome p {
+    color: darkslategray ;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+@media (max-width: 768px) {
+ 
+    .textohome p, h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+.cidades {
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.cidades a {
+    color: black;
+}
+
+.formularioidaeretorno {
+    align-items: center;
+}
+
+.somos p {
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
